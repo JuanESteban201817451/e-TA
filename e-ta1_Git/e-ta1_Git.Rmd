@@ -1,20 +1,32 @@
 ---
-title: 'Advanced Github Lab'
-output:
+title: "e-TA 1: Version control with Git(Hub)"
+author: 
+  name: "Ignacio Sarmiento-Barbieri & Jacob Muñoz Castro"
+  affiliation: "Universidad de los Andes | [ECON 4676](https://github.com/ECON-4676-UNIANDES)" 
+output: 
   html_document:
-    # css: "files/main_style.css"
-    mathjax: default
-    fig_height: 4
-    fig_width: 6
-    highlight: tango
+    theme: paper
+    highlight: haddock
+    # code_folding: show
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    keep_md: true
 ---
 
-
-```{r, echo=FALSE}
-knitr::opts_knit$set(root.dir = "/Users/jacobmunozc/Google Drive/Uniandes/GTAs/BDMLAE")
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache = TRUE, dpi=300)
 ```
 
-Hello! So you want to learn how to use Github. In this Lab you will learn the intricacies and specifics of working with Github, as well as strategies to keep your file version control under your control.
+
+Hello! Welcome to e-TAs, your on-line help for ECON 4676. So you want to learn how to use Github. In this Lab you will learn the intricacies and specifics of working with Github, as well as strategies to keep your file version control under your control. The present issue focuses on the basic operations of `Git` and `Github`. The core material was extracted from tutorials at the [BDEEP group](https://www.uiuc-bdeep.org/about) at [NCSA](http://www.ncsa.illinois.edu/site) and [Grant McDermott](https://grantmcdermott.com/) tutorial at the University of Oregon e-TA's. [^fn-1] 
+
+
+[^fn-1]: If you have comments, suggestions, etc. please submit a pull request ;).
+
+
+
+
 
 ## Repositories
 
@@ -40,7 +52,7 @@ Congratulations! Now you have created your own repository! In your repository, y
 
 Before we talk about version control, you need to understand branches. Branches are what github uses to ensure that there is always a working version of the code available for use. This fully functional branch is called "master". In order to make changes to master, you should create a branch off of it and make the changes in the new branch. Once you ensure that the code in your new branch is working perfectly, you can then merge your changes in the new branch into master (this is called a pull request). Once these changes are approved, the new branch that you created can be deleted and now the master branch will have the most recent version of your work. Here is a diagram of a normal github workflow:
 
-![](github_model.png)
+<!--![](github_model.png)-->
 
 #### Creating a branch:
 Creating a branch is very simple to do. Just click the dropdown "branch" menu near the top left of your repository and type in a name for your new branch and then hit enter. Now the dropdown menu should contain the name of your new branch, but everything else will look the same because this branch is a clone of the master branch.
@@ -68,7 +80,7 @@ If you are working with other collaborators, instead of pushing directly to mast
 #### Deleting a branch:
 After a pull request for a certain branch has been approved and you no longer need to work on that branch anymore, it is safe to delete the branch. You can do this by clicking the "branch" icon here and then selecting the delete icon next to the branch that you want to delete. Make sure tht the branch says "merged" so that you know everything is up to date.
 
-![](delete_branch.png)
+<!--![](delete_branch.png)-->
 
 
 ## Initialize a Local Repository:
@@ -121,7 +133,7 @@ Once you have a repository on GitHub, here is how you link it to your computer. 
 
 Here is what all of these commands will look like in your command line, sans the black lines.
 
-![](image--002.png)
+<!--![](image--002.png)-->
 
 
 ### Revision Reversion:
@@ -156,7 +168,7 @@ This git pull version will grab all of the data in the remote branch, merges it 
 
 This is what pulling will look like. Look at all those files being merged...
 
-![](image--003.png)
+<!--![](image--003.png)-->
 
 
 
