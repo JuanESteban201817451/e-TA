@@ -4,7 +4,7 @@ This page contains the E-TAs (with their R Markdowns) and the related data.
 
 
 
-## [E-TA1: Version control with Git(Hub)](http://htmlpreview.github.io/?https://github.com/ECON-4676-UNIANDES/lectures/blob/master/E-TA/GitHub.html)
+## [E-TA1: Version control with Git(Hub)](https://github.com/ECON-4676-UNIANDES/e-TA/blob/master/e-ta1_Git/e-ta1_Git.html)
 
 ## [E-TA2: Brief Introduction to R](http://htmlpreview.github.io/?https://github.com/ECON-4676-UNIANDES/lectures/blob/master/E-TA/e-ta1_R.html)
 
