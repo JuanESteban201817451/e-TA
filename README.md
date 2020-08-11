@@ -1,18 +1,11 @@
-# E-TA
+# e-TA
 
-This page contains the E-TAs (with their R Markdowns) and the related data.
-
-
-
-## [E-TA1: Version control with Git(Hub)](https://github.com/ECON-4676-UNIANDES/e-TA/blob/master/e-ta1_Git/e-ta1_Git.html)
-
-## [E-TA2: Brief Introduction to R](http://htmlpreview.github.io/?https://github.com/ECON-4676-UNIANDES/lectures/blob/master/E-TA/e-ta1_R.html)
-
-## [E-TA3: SQL lab](http://htmlpreview.github.io/?https://github.com/ECON-4676-UNIANDES/lectures/blob/master/E-TA/SQL_lab.html)
+Hello! Welcome to e-TAs, your on-line help for ECON 4676. This page contains the electronic-TAs (with their R Markdowns) and related materials.
 
 
 
-## [Data](http://htmlpreview.github.io/?https://github.com/ECON-4676-UNIANDES/lectures/blob/master/E-TA/Data)
+## [e-TA1: Version control with Git(Hub)](https://rawcdn.githack.com/ECON-4676-UNIANDES/e-TA/5a1ccea1282f1720907768388dc8f5297dd7800a/e-ta1_Git/e-ta1_Git.html)
+
 
 
 ## License
