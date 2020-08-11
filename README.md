@@ -4,7 +4,7 @@ Hello! Welcome to e-TAs, your on-line help for ECON 4676. This page contains the
 
 
 
-## [e-TA1: Version control with Git(Hub)](https://rawcdn.githack.com/ECON-4676-UNIANDES/e-TA/5a1ccea1282f1720907768388dc8f5297dd7800a/e-ta1_Git/e-ta1_Git.html)
+## [e-TA1: Version control with Git(Hub)](https://raw.githack.com/ECON-4676-UNIANDES/e-TA/master/e-ta1_Git/e-ta1_Git.html)
 
 
 
