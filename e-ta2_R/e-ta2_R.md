@@ -880,7 +880,7 @@ Another nice thing about R is that you can create your own function and create a
 
 ```r
     download<-function(x,folder){
-        URL<- paste("https://github.com/ECON-4676-UNIANDES/lectures/tree/master/Lecture1/Data",folder,x,sep='/')
+        URL<- paste("https://github.com/ECON-4676-UNIANDES/e-TA/blob/master/e-ta2_R/Data/",folder,x,sep='/')
        destfile <- paste(folder, x, sep='/')
        download.file(URL,destfile)    
     }
@@ -891,7 +891,7 @@ I create a function that downloads a file from the ECON4676 webpage and saves it
 
 
 ```r
-    names<-list("US90.txt", "giffen.dat", "giffen.csv", "gasq.data", "gasm.data", "AUTO2.DTA", "AUTO2.txt", "CPS.txt", "eggs.csv") 
+    names<-list("US90.txt", "giffen.csv") 
 ```
 
 Next I created a list with the name of the files I want to download, and then run a loop with `lapply' that downloads and saves all this files in my computer in the folder "data"
@@ -901,7 +901,7 @@ Next I created a list with the name of the files I want to download, and then ru
     lapply(names, download, folder="Data")
 ```
 
-#Final words
+# Final words
 
 In this first e-TA I tried to convince you why you should use R as well to introduce you to some basic operations. The next e-TA is closely related to the first problem set and hopefully it will help you get the most out of ECON 4676 and R.
 

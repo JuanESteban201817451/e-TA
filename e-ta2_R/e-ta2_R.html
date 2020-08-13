@@ -2072,18 +2072,20 @@ invgr        0.29399791  0.1100050  2.6725870 0.03187991
 unemp        0.09552687  0.1505735  0.6344201 0.54597347</code></pre>
 <p>Another nice thing about R is that you can create your own function and create a loop. For example,</p>
 <div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb92-1" data-line-number="1">    download&lt;-<span class="cf">function</span>(x,folder){</a>
-<a class="sourceLine" id="cb92-2" data-line-number="2">        URL&lt;-<span class="st"> </span><span class="kw">paste</span>(<span class="st">&quot;https://github.com/ECON-4676-UNIANDES/lectures/tree/master/Lecture1/Data&quot;</span>,folder,x,<span class="dt">sep=</span><span class="st">'/'</span>)</a>
+<a class="sourceLine" id="cb92-2" data-line-number="2">        URL&lt;-<span class="st"> </span><span class="kw">paste</span>(<span class="st">&quot;https://github.com/ECON-4676-UNIANDES/e-TA/blob/master/e-ta2_R/Data/&quot;</span>,folder,x,<span class="dt">sep=</span><span class="st">'/'</span>)</a>
 <a class="sourceLine" id="cb92-3" data-line-number="3">       destfile &lt;-<span class="st"> </span><span class="kw">paste</span>(folder, x, <span class="dt">sep=</span><span class="st">'/'</span>)</a>
 <a class="sourceLine" id="cb92-4" data-line-number="4">       <span class="kw">download.file</span>(URL,destfile)    </a>
 <a class="sourceLine" id="cb92-5" data-line-number="5">    }</a></code></pre></div>
 <p>I create a function that downloads a file from the ECON4676 webpage and saves it in a desired folder</p>
-<div class="sourceCode" id="cb93"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb93-1" data-line-number="1">    names&lt;-<span class="kw">list</span>(<span class="st">&quot;US90.txt&quot;</span>, <span class="st">&quot;giffen.dat&quot;</span>, <span class="st">&quot;giffen.csv&quot;</span>, <span class="st">&quot;gasq.data&quot;</span>, <span class="st">&quot;gasm.data&quot;</span>, <span class="st">&quot;AUTO2.DTA&quot;</span>, <span class="st">&quot;AUTO2.txt&quot;</span>, <span class="st">&quot;CPS.txt&quot;</span>, <span class="st">&quot;eggs.csv&quot;</span>) </a></code></pre></div>
+<div class="sourceCode" id="cb93"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb93-1" data-line-number="1">    names&lt;-<span class="kw">list</span>(<span class="st">&quot;US90.txt&quot;</span>, <span class="st">&quot;giffen.csv&quot;</span>) </a></code></pre></div>
 <p>Next I created a list with the name of the files I want to download, and then run a loop with `lapply’ that downloads and saves all this files in my computer in the folder “data”</p>
 <div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb94-1" data-line-number="1">    <span class="kw">lapply</span>(names, download, <span class="dt">folder=</span><span class="st">&quot;Data&quot;</span>)</a></code></pre></div>
-<p>#Final words</p>
+</div>
+</div>
+</div>
+<div id="final-words" class="section level1">
+<h1>Final words</h1>
 <p>In this first e-TA I tried to convince you why you should use R as well to introduce you to some basic operations. The next e-TA is closely related to the first problem set and hopefully it will help you get the most out of ECON 4676 and R.</p>
-</div>
-</div>
 </div>
 <div class="footnotes">
 <hr />
