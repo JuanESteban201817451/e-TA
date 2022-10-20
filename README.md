@@ -1,7 +1,10 @@
-# e-TA
+# E-TA
 
-Hello! Welcome to e-TAs, your on-line help for ECON 4676. This page contains the electronic-TAs (with their R Markdowns) and related materials.
+El siguiente repositorio tiene el fin de contener información de investigación para el CEDE, Principalmente se encuentran dos metodología de Scraping de datos, las dos paginas principales de las que se extraen los datos son:
 
+[EL EMPLEO.COM](https://www.elempleo.com/co/ofertas-empleo?gclid=EAIaIQobChMIkrDJsPbv-gIVvhvUAR30KQb6EAAYASAAEgLkA_D_BwE)
+
+[computrabajo](https://co.computrabajo.com/)
 
 
 ## [e-TA 1: Version control with Git(Hub)](https://raw.githack.com/ECON-4676-UNIANDES/e-TA/master/e-ta1_Git/e-ta1_Git.html)
